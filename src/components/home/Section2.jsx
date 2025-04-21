@@ -54,13 +54,19 @@ const HomeSection2 = ({ current, setCurrent }) => {
                   @ {exp.company}
                 </p>
 
-                <p className="mt-4 text-[var(--textColorLight)]">{exp.description1}</p>
+                {/* <p className="mt-4 text-[var(--textColorLight)]">{exp.description1}</p>
                 <p className="mt-4 text-[var(--textColorLight)]">{exp.description2}</p>
                 <p className="mt-4 text-[var(--textColorLight)]">{exp.description3}</p>
                 <p className="mt-4 text-[var(--textColorLight)] ">{exp.description4}</p>
                 <p className="mt-4 text-[var(--textColorLight)]">{exp.description5}</p>
-                <p className="mt-4 text-[var(--textColorLight)]">{exp.description6}</p>
+                <p className="mt-4 text-[var(--textColorLight)]">{exp.description6}</p> */}
                 
+                {exp.descriptions.map((desc, idx) => (
+                  <p key={`description-${idx}`} className="mt-4 text-[var(--textColorLight)]">
+                    {desc}
+                  </p>
+                ))}
+
               </Column>
             );
           })}

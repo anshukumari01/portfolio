@@ -8,6 +8,10 @@ const skills = [
     icon: "/logo/C++.png",
   },
   {
+    title: "Python",
+    icon: "/logo/python.png",
+  },
+  {
     title: "React.js",
     icon: "/logo/reactjs.webp",
   },
@@ -18,6 +22,10 @@ const skills = [
   {
     title: "Django",
     icon: "/logo/django.png",
+  },
+  {
+    title: "Flask",
+    icon: "/logo/flask.png",
   },
   {
     title: "HTML",

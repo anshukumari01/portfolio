@@ -3,11 +3,11 @@ import Strings from "@/constants/strings";
 const About = {
   welcomeText: "Hi 👋 I'm",
   fullName: Strings.fullName,
-  designation: "Final-year CSE student at IIT Kanpur",
+  designation: "Computer Science graduate from IIT Kanpur",
   description1:
     "Exploring the limitless possibilities of software development.",
   description2:
-    "I am currently pursuing my B.Tech in Computer Science at IIT Kanpur. With an insatiable curiosity and a drive to create meaningful solutions. Always striving to stay ahead of the curve, I am committed to continuous learning and keeping pace with the latest advancements in the dynamic world of technology. ",
+    "I love building scalable software that not only works great but feels great to use. With experience across the development, I’ve worked with tools like C++, Python, Django, React.js, Next.js, and Spring Boot to turn ideas into real, functional products. Clean code, creative problem-solving, and constant learning are what keep me going. Whether it’s fixing a tricky bug or bringing a new feature to life, I’m all in for the challenge and the impact.",
   description3:
     "I would love to connect and explore the exciting opportunities! ",
 
