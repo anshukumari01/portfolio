@@ -33,21 +33,21 @@ const HomeSection1 = ({ current, setCurrent }) => {
       elementRef={homeRef}
     >
       
-            <p className="max-w-sm">{About.welcomeText}</p>
+            <p className="max-w-sm text-center">{About.welcomeText}</p>
 
-            <h1 className="text-[var(--successColor60)]">{About.fullName}</h1>
+            <h1 className="text-[var(--successColor60)] text-center">{About.fullName}</h1>
 
-            <p className="font-semibold max-w-sm">{About.designation}</p>
+            <p className="font-semibold max-w-sm text-center">{About.designation}</p>
 
-            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
+            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg text-center">
               {About.description1}
             </p>
 
-            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
+            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg text-center ">
               {About.description2}
             </p>
 
-            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg">
+            <p className="mt-8 max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg text-center">
               {About.description3}
             </p>
 

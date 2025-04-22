@@ -2,7 +2,7 @@ import Strings from "@/constants/strings";
 
 const About = {
   welcomeText: "Hi 👋 I'm",
-  fullName: Strings.fullName,
+  fullName: Strings.shortName,
   designation: "Computer Science graduate from IIT Kanpur",
   description1:
     "Exploring the limitless possibilities of software development.",

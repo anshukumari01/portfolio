@@ -24,7 +24,7 @@ You need to have the following software installed on your computer:
 3. Navigate to the project directory:
 
    ```bash
-   cd portfolio-nextjs
+   cd portfolio
    ```
 
 4. Install the project dependencies:
