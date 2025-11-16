@@ -11,6 +11,7 @@ import HomeSection4 from "@/components/home/Section4";
 import HomeSection5 from "@/components/home/Section5";
 
 const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   const [current, setCurrent] = useState("");
@@ -33,12 +34,12 @@ export default function Home() {
         `}
       </Script>
 
-      <NavBar current={current} />
-      <HomeSection1 current={current} setCurrent={setCurrent} />
-      <HomeSection2 current={current} setCurrent={setCurrent} />
-      <HomeSection3 current={current} setCurrent={setCurrent} />
-      <HomeSection4 current={current} setCurrent={setCurrent} />
-      <HomeSection5 current={current} setCurrent={setCurrent} />
+      <NavBar current={current} /><SpeedInsights/>
+      <HomeSection1 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection2 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection3 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection4 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection5 current={current} setCurrent={setCurrent} /><SpeedInsights/>
     </PageBox>
   );
 }
