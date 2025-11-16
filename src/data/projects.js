@@ -1,8 +1,17 @@
 const projects = [
   {
+    title: "Straynon – Focus & Productivity Desktop App",
+    description:
+      "Desktop Application Built using Python to help maintain focus and productivity by blocking distracting websites and applications, and tracking activity across all apps.",
+    githubUrl: "https://github.com/anshukumari01/Straynon",
+    url: "https://straynon.vercel.app/",
+    repoType: "public",
+    tags: ["PyQt5", "SQLAlchemy", "SQLite", "Matplotlib"],
+  },
+  {
     title: "Java Compiler",
     description:
-      "a java compiler using C++ language to generate x86 code with support for nested conditionals, loops, and various JAVA features.",
+      "A java compiler using C++ language to generate x86 code with support for nested conditionals, loops, and various JAVA features.",
     githubUrl: "https://github.com/anshukumari01/Java-Compiler",
     // url: "",
     repoType: "public",
@@ -19,7 +28,7 @@ const projects = [
   {
     title: "Interest Automation System",
     description:
-      "Backend API to calculate and auto-update daily loan interest into DB ay a scheduled time",
+      "Spring Boot Backend API to calculate and auto-update daily loan interest into DB ay a scheduled time",
       githubUrl: "https://github.com/anshukumari01/Phytomark",
       tags: ["SpringBoot", "PostgreSQL", "Apache Tomcat"],
   },
