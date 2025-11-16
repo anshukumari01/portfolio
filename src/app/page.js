@@ -35,11 +35,11 @@ export default function Home() {
       </Script>
 
       <NavBar current={current} /><SpeedInsights/>
-      <HomeSection1 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection1 current={current} setCurrent={setCurrent} />
       <HomeSection2 current={current} setCurrent={setCurrent} /><SpeedInsights/>
-      <HomeSection3 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection3 current={current} setCurrent={setCurrent} />
       <HomeSection4 current={current} setCurrent={setCurrent} /><SpeedInsights/>
-      <HomeSection5 current={current} setCurrent={setCurrent} /><SpeedInsights/>
+      <HomeSection5 current={current} setCurrent={setCurrent} />
     </PageBox>
   );
 }
